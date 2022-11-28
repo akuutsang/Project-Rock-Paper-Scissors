@@ -7,6 +7,17 @@ function game(){
     // the final code will go in here
 }
 
+function playRound(){
+    const playerSelection = playerChoice();  
+   //  console.log(playerSelection);
+    const computerSelection = computerChoice();
+   //  console.log(computerSelection);
+    const winner = checkWinner(playerSelection, computerSelection);
+    console.log(winner);
+   }
+   
+   
+
 // creat a function for computerChoice which will pick at random
 
 function computerChoice(){
@@ -62,3 +73,9 @@ function checkWinner(choiceP, choiceC){
    return "invalid response"
   }
 } 
+
+// Next is to creat another function to check the winner, and i chose to do it above on line 10
+// this is because i want it closer to the function game.
+// also i will now invoke function game below
+
+game();
