@@ -5,6 +5,11 @@ const choices = ["rock", "paper", "scissors"];
 
 function game(){
     // the final code will go in here
+    // this is to ensure the game runs 5times
+    for (let i = 1 ; 1 <= 5; 1++) {
+      playRound();
+        
+    }
 }
 
 function playRound(){
