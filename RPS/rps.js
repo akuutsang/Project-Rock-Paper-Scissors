@@ -4,12 +4,11 @@ const choices = ["rock", "paper", "scissors"];
 // secondly, write a function that will wrap us all your game
 
 function game(){
-    // the final code will go in here
-    // this is to ensure the game runs 5times
-    for (let i = 1 ; 1 <= 5; 1++) {
-      playRound();
-        
-    }
+    // // the final code will go in here
+    // // this is to ensure the game runs 5times
+    for (let i = 1; i <= 5; i++) {
+    playRound();
+   }
 }
 
 function playRound(){
