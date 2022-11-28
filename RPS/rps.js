@@ -34,3 +34,7 @@ function playerChoice(){
    } 
    return input; 
   }
+// function validates is to ensure the user picks from the options in the array
+  function validateInput(choice){
+    return choices.includes(choice);
+  }  
